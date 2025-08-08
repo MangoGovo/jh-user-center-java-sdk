@@ -7,7 +7,7 @@ import "response.proto";
 import "request.proto";
 
 option java_multiple_files = true;
-option java_package = "org.jh.usercenter";
+option java_package = "org.jh.usercenter.api";
 
 service UserCenterService {
   rpc Register(RegisterRequest) returns (Response);

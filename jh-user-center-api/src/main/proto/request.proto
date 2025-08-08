@@ -4,7 +4,7 @@ package zjut.jh.api.user.v1alpha1;
 
 
 option java_multiple_files = true;
-option java_package = "org.jh.usercenter";
+option java_package = "org.jh.usercenter.api";
 
 message RegisterRequest {
   string studentId = 1;

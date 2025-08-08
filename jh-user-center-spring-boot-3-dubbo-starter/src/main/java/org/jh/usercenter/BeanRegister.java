@@ -4,6 +4,7 @@ import jakarta.annotation.Resource;
 import org.apache.dubbo.common.constants.CommonConstants;
 import org.apache.dubbo.config.ReferenceConfig;
 import org.apache.dubbo.config.bootstrap.DubboBootstrap;
+import org.jh.usercenter.api.UserCenterService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

@@ -18,9 +18,9 @@
     </properties>
 
     <modules>
-        <module>jh-user-center-spring-boot-3-dubbo-starter</module>
         <module>jh-user-center-api</module>
         <module>jh-user-center-common</module>
+        <module>jh-user-center-spring-boot-3-dubbo-starter</module>
     </modules>
 
     <dependencies>

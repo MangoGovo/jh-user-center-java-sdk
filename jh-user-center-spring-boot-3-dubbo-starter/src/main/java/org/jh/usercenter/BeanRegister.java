@@ -1,10 +1,9 @@
-package org.jh;
+package org.jh.usercenter;
 
 import jakarta.annotation.Resource;
 import org.apache.dubbo.common.constants.CommonConstants;
 import org.apache.dubbo.config.ReferenceConfig;
 import org.apache.dubbo.config.bootstrap.DubboBootstrap;
-import org.jh.api.UserCenterService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -23,7 +22,7 @@ public class BeanRegister {
         ref.setInterface(UserCenterService.class);
         ref.setProtocol(CommonConstants.TRIPLE);
         ref.setProxy(CommonConstants.NATIVE_STUB);
-        ref.setTimeout(3000);
+        ref.setTimeout(10000);
         ref.setUrl(properties.getGrpc());
         bootstrap.reference(ref);
         return ref.get();

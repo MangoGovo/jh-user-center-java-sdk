@@ -1,4 +1,4 @@
-package org.jh;
+package org.jh.usercenter;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

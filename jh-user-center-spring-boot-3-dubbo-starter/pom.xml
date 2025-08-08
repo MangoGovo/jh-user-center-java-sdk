@@ -23,14 +23,15 @@
     <dependencies>
         <dependency>
             <groupId>org.jh</groupId>
-            <artifactId>jh-user-center-common</artifactId>
+            <artifactId>jh-user-center-api</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.jh</groupId>
-            <artifactId>jh-user-center-api</artifactId>
+            <artifactId>jh-user-center-common</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+
 
         <!--SpringBoot-->
         <dependency>
